@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dang nhap cau truc if/else</title>
+</head>
+<body>
+<script>
+    let username= prompt("Vui lòng nhập tên đăng nhập:",'');
+    if (username == 'admin') {
+        let pass=prompt("Vui lòng nhập mật khẩu của bạn:",'');
+        if (pass=='themaster'){
+            alert('Xin chào ngài...My Master');
+        }
+        else  if (pass == null){
+            alert('Hủy bỏ');
+        }
+            else {
+                alert('Mật khẩu sai');
+        }
+
+    }
+    else  if (username == null) {
+        alert('Hủy bỏ');
+    }
+        else {
+            alert('Không xác định');
+    }
+</script>
+</body>
+</html>
